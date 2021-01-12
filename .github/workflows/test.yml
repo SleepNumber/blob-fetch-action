@@ -24,7 +24,7 @@ jobs:
          with:
           args: --acl public-read
          env:
-          FILE: ./test2.json
+          FILE: ./results.json
           AWS_REGION: 'us-east-1'
           AWS_S3_BUCKET: sndt-sleep-science
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
